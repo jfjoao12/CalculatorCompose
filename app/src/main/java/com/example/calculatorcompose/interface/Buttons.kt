@@ -33,7 +33,7 @@ fun CalculatorButton(button: CalculatorButton, onClick: (String) -> Unit) {
             }
         )
     ) {
-        Text(button.name, fontSize = 24.sp,
+        Text(button.value, fontSize = 24.sp,
             color = if (button.type == ButtonType.CONTROL) Color.Black else Color.White)
     }
 }

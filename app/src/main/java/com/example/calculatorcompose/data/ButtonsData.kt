@@ -28,6 +28,6 @@ val buttonsList = listOf(
     CalculatorButton(".", ButtonType.OPERATION, ".", "Row 5"),
     CalculatorButton("/", ButtonType.OPERATION, "/", "Row 1"),
     CalculatorButton("*", ButtonType.OPERATION, "*", "Row 1"),
-    CalculatorButton("C", ButtonType.CONTROL, "C", "Row 1"),
-    CalculatorButton("⌫", ButtonType.CONTROL, "Backspace", "Row 1")
+    CalculatorButton("Clear", ButtonType.CONTROL, "C", "Row 1"),
+    CalculatorButton("Backspace", ButtonType.CONTROL, "⌫", "Row 1")
 )

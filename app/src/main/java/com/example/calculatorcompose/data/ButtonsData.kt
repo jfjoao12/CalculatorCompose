@@ -22,7 +22,7 @@ val buttonsList = listOf(
     CalculatorButton("7", ButtonType.NUMBER, "7", "Row 2"),
     CalculatorButton("8", ButtonType.NUMBER, "8", "Row 2"),
     CalculatorButton("9", ButtonType.NUMBER, "9", "Row 2"),
-    CalculatorButton("=", ButtonType.OPERATION, "=", "Row 4"),
+    CalculatorButton("Equal", ButtonType.CONTROL, "=", "Row 4"),
     CalculatorButton("+", ButtonType.OPERATION, "+", "Row 3"),
     CalculatorButton("-", ButtonType.OPERATION, "-", "Row 2"),
     CalculatorButton(".", ButtonType.OPERATION, ".", "Row 5"),
